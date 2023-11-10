@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/letties-nursery/static/css/main.be8aa538.css",
+    "main.js": "/letties-nursery/static/js/main.c49a58ea.js",
+    "static/media/logo-text.png": "/letties-nursery/static/media/logo-text.5929a8000800384d80cd.png",
+    "index.html": "/letties-nursery/index.html",
+    "main.be8aa538.css.map": "/letties-nursery/static/css/main.be8aa538.css.map",
+    "main.c49a58ea.js.map": "/letties-nursery/static/js/main.c49a58ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be8aa538.css",
+    "static/js/main.c49a58ea.js"
+  ]
+}

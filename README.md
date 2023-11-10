@@ -1,7 +1,5 @@
 # Lettie's Nursery
 
-My senior capstone.
+[View on GitHub Pages.](https://jennagmclaughlin.github.io/Letties-Nursery/)
 
-Fictional plant store dedicated to selling pet-friendly plants.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My senior capstone. Fictional plant store dedicated to selling pet-friendly plants.

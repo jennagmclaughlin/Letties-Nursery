@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
-import logo from '../Assets/img/logo-text.png'
-import Dropdown from './Dropdown.jsx'
+import logo from './Assets/img/logo-text.png'
+import Dropdown from './Assets/Dropdown.jsx'
 import { BiCartAlt } from "react-icons/bi";
 
 
@@ -9,7 +9,7 @@ export const Navbar = () => {
   let [open, setOpen] = useState(false);
   return (
     <div>
-      <nav className="navbar nav_border-bottom-sm z-50 bg-white">
+      <nav className="navbar nav_border-bottom-sm relative z-50 bg-white">
         <div className="mx-auto w-full md:container relative px-4 py-4 md:flex justify-between items-center bg-white">
           <a href="#">
             <img src={logo} alt="logo" className="h-12" />
@@ -35,3 +35,5 @@ export const Navbar = () => {
     </div>
   );
 }
+
+export default Navbar;

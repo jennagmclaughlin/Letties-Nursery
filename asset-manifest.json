@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Letties-Nursery/static/css/main.278298b3.css",
-    "main.js": "/Letties-Nursery/static/js/main.732a4324.js",
+    "main.js": "/Letties-Nursery/static/js/main.67d6730f.js",
     "static/media/logo-text.png": "/Letties-Nursery/static/media/logo-text.5929a8000800384d80cd.png",
     "index.html": "/Letties-Nursery/index.html",
     "main.278298b3.css.map": "/Letties-Nursery/static/css/main.278298b3.css.map",
-    "main.732a4324.js.map": "/Letties-Nursery/static/js/main.732a4324.js.map"
+    "main.67d6730f.js.map": "/Letties-Nursery/static/js/main.67d6730f.js.map"
   },
   "entrypoints": [
     "static/css/main.278298b3.css",
-    "static/js/main.732a4324.js"
+    "static/js/main.67d6730f.js"
   ]
 }

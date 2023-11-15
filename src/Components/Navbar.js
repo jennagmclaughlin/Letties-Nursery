@@ -10,10 +10,10 @@ export const Navbar = () => {
     const { isOpen, setIsOpen } = useContext(SidebarContext);
     return (
         <div>
-            <nav className="border-b border-gray-300 relative z-50 bg-white">
+            <nav className="border-b border-gray-300 relative top-0 z-50 bg-white">
                 <div className="mx-auto w-full md:container relative px-4 py-4 flex justify-between items-center bg-white">
                     <a href="#">
-                        <img src={logo} alt="logo" className="h-12" />
+                        <img src={logo} alt="logo" className="h-11" />
                     </a>
                     {/* Hamburger menu */}
                     {/* <button onClick={()=>setOpen(!open)} className="md:hidden flex text-3xl absolute top-[1.5rem] right-4 text-black hover:text-gray-600" ariaLabel="Navigation">

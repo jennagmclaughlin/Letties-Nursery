@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/Letties-Nursery/static/css/main.eda50b50.css",
-    "main.js": "/Letties-Nursery/static/js/main.c3a9c589.js",
+    "main.css": "/Letties-Nursery/static/css/main.0a5fa24a.css",
+    "main.js": "/Letties-Nursery/static/js/main.6738e15b.js",
     "static/media/hero.png": "/Letties-Nursery/static/media/hero.17c6f582ffc0b2faab28.png",
     "static/media/logo-text.png": "/Letties-Nursery/static/media/logo-text.de3cf877a2a07c5b2526.png",
+    "static/media/fish.webp": "/Letties-Nursery/static/media/fish.64e89111f7ffcc2bb9cf.webp",
+    "static/media/dog.webp": "/Letties-Nursery/static/media/dog.e03e4135f93ed838d76d.webp",
+    "static/media/catPlant.webp": "/Letties-Nursery/static/media/catPlant.7c8dfeacf558d95e5ebe.webp",
+    "static/media/house.webp": "/Letties-Nursery/static/media/house.bf30cfb095380e10eec1.webp",
+    "static/media/aquatic.webp": "/Letties-Nursery/static/media/aquatic.c063cbd550ece926a100.webp",
+    "static/media/leaves.webp": "/Letties-Nursery/static/media/leaves.0e1f80bcae4221c0336d.webp",
     "index.html": "/Letties-Nursery/index.html",
-    "main.eda50b50.css.map": "/Letties-Nursery/static/css/main.eda50b50.css.map",
-    "main.c3a9c589.js.map": "/Letties-Nursery/static/js/main.c3a9c589.js.map"
+    "main.0a5fa24a.css.map": "/Letties-Nursery/static/css/main.0a5fa24a.css.map",
+    "main.6738e15b.js.map": "/Letties-Nursery/static/js/main.6738e15b.js.map"
   },
   "entrypoints": [
-    "static/css/main.eda50b50.css",
-    "static/js/main.c3a9c589.js"
+    "static/css/main.0a5fa24a.css",
+    "static/js/main.6738e15b.js"
   ]
 }

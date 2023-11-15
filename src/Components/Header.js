@@ -1,7 +1,8 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import { Link } from "react-router-dom";
 // import navbar
 import Navbar from "./Navbar";
+// import hero img
 import Hero from "./Assets/img/hero.png";
 
 const Header = () => {
@@ -18,7 +19,9 @@ const Header = () => {
                             bring the outdoors inside without compromising the well-being of your furry companions.
                         </p>
                         <div className="mt-5 flex flex-col md:flex-row items-center gap-5">
-                            <button className="bg-white hover:bg-gray-400 rounded-xl w-[200px] md:w-auto py-2 px-6 transition duration-200">Browse our collection</button>
+                            <Link to={`/plants`}>
+                                <button className="bg-white hover:bg-gray-400 rounded-xl w-[200px] md:w-auto py-2 px-6 transition duration-200">Browse our collection</button>
+                            </Link>
                             <Link to={`/about`}>
                                 <button className="text-gray-400 relative after:bg-gray-400 after:absolute after:h-[1px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200">
                                     Learn more

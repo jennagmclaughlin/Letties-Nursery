@@ -9,7 +9,7 @@ import { BsEye } from "react-icons/bs";
 const Product = ({ product }) => {
     const { id } = product;
     return (
-        <div className="productCard bg-white w-full h-[360px] relative card-shadow rounded-md overflow-hidden" key={product.id}>
+        <div className="productCard bg-white w-full h-[360px] relative rounded-md overflow-hidden card-shadow" key={product.id}>
             <LazyLoadImage
                 placeholderSrc={product.superCompressed}
                 src={product.image}

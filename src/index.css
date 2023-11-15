@@ -23,6 +23,25 @@ body {
     display: block !important;
 }
 
+.browseAllPlants {
+    background-image: url("./Components/Assets/img/leaves.webp");
+}
+
+.browseHousePlants {
+    background-image: url("./Components/Assets/img/house.webp");
+}
+
+.browseAquaticPlants {
+    background-image: url("./Components/Assets/img/aquatic.webp");
+}
+
+.browseAllPlants,
+.browseHousePlants,
+.browseAquaticPlants {
+    background-size: cover;
+    background-position: center;
+}
+
 @media (max-width: 768px) {
     .nav_links-border-bottom-sm {
         border-bottom: 1px solid rgb(156 163 175);

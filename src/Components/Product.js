@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../index.css";
 import { Link } from "react-router-dom";
 // import icons
@@ -8,9 +9,14 @@ import { BsEye } from "react-icons/bs";
 const Product = ({ product }) => {
     const { id } = product;
     return (
-        <div className="productCard bg-white w-full h-[355px] relative card-shadow rounded-md overflow-hidden" key={product.id}>
-            <img src={product.image} alt={product.name} className="productCardImg w-full h-[355px] object-cover object-center relative z-[1] transition-opacity" />
-            <div className="productCardAction w-full p-3 absolute top-0 z-[2] flex xl:translate-x-[60px] gap-3 flex-col items-end justify-start transition-transform">
+        <div className="productCard bg-white w-full h-[360px] relative card-shadow rounded-md overflow-hidden" key={product.id}>
+            <LazyLoadImage
+                placeholderSrc={product.superCompressed}
+                src={product.image}
+                alt={product.name}
+                className="productCardImg w-full h-[355px] object-cover object-center relative z-[1] transition-opacity"
+            />
+            <div className="productCardAction w-full h-[350px] p-3 absolute top-0 z-[2] flex xl:translate-x-[60px] gap-3 flex-col items-end justify-start transition-transform">
                 <button className="bg-purple hover:bg-purple-hover p-3 rounded text-white text-xl">
                     <BiPlus />
                 </button>
@@ -20,7 +26,7 @@ const Product = ({ product }) => {
                     </button>
                 </Link>
             </div>
-            <div className="productCardInfo bg-white w-full h-[68px] relative z-[3] p-3 lg:flex flex-col justify-center translate-y-[-68px]">
+            <div className="productCardInfo bg-white w-full h-[70px] relative z-[3] p-3 lg:flex flex-col justify-center translate-y-[-70px]">
                 <div className="flex justify-between items-center">
                     <div>
                         <h2 className="font-bold text-lg">{product.name}</h2>

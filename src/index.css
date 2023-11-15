@@ -19,6 +19,10 @@ body {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
+.lazy-load-image-background {
+    display: block !important;
+}
+
 @media (max-width: 768px) {
     .nav_links-border-bottom-sm {
         border-bottom: 1px solid rgb(156 163 175);

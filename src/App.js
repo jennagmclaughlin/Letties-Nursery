@@ -4,6 +4,7 @@ import { Routes, Route, HashRouter } from "react-router-dom";
 // import pages
 import Home from "./Pages/Home";
 import ProductDetails from "./Pages/ProductDetails";
+import About from "./Pages/About";
 // import components
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -16,6 +17,7 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/product/:id" element={<ProductDetails />} />
+                <Route path="/about" element={<About />} />
             </Routes>
             <Sidebar />
             <Footer />

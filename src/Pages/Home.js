@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 // import components
 import Header from "../Components/Header";
+import Navbar from "../Components/Navbar";
 // import product context
 import { ProductContext } from "../Context/ProductContext";
 // import products
@@ -16,6 +17,7 @@ const Home = () => {
 
     return (
         <div>
+            <Navbar />
             <Header />
             <section className="relative z-1">
                 <div className="container mx-auto mt-5 p-5">

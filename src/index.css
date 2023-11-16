@@ -53,10 +53,12 @@ body {
 }
 
 @media (min-width: 1280px) {
-    .productCard:hover > .productCardImg {
+    .productCard:hover > .productCardImg,
+    .productCard:focus-within .productCardImg {
         opacity: 0.5;
     }
-    .productCard:hover > .productCardAction {
+    .productCard:hover > .productCardAction,
+    .productCard:focus-within .productCardAction {
         transform: translateX(0);
     }
 }

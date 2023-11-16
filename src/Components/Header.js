@@ -8,12 +8,11 @@ import Hero from "./Assets/img/hero.png";
 const Header = () => {
     return (
         <div>
-            <Navbar />
             <header className="bg-dark-green w-full h-[600px] overflow-hidden">
-                <div class="container h-full mx-auto px-5 flex flex-col md:flex-row items-center justify-center md:justify-between relative">
+                <div className="container h-full mx-auto px-5 flex flex-col md:flex-row items-center justify-center md:justify-between relative">
                     <div className="md:w-[60%] lg:w-[75ch] text-center md:text-left">
                         <h3 className="buenard text-xl text-white">Lettie's Nursery</h3>
-                        <h1 className="buenard font-bold text-white text-7xl">The Best in Pet-Friendly Greenery</h1>
+                        <h1 className="buenard font-bold text-white text-7xl">The Best for Pet-Friendly Greenery</h1>
                         <p className="text-gray-400 text-sm mt-2">
                             Welcome to a plant lover's dream where pet safety comes first! Explore our store for a handpicked assortment of pet-friendly plants, specially chosen to
                             bring the outdoors inside without compromising the well-being of your furry companions.

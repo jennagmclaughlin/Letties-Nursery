@@ -29,7 +29,7 @@ const ProductDetails = () => {
         <section className="flex-1">
             <div className="container p-4 mx-auto">
                 <div className="flex flex-col lg:flex-row items-center mx-auto">
-                    {/* product image */}
+                    {/* Product image */}
                     <div className="flex-1 flex items-center justify-center">
                         <img src={image} alt={name} className="max-w-[200px] lg:max-w-sm rounded-xl mb-4 lg:mb-0" />
                     </div>

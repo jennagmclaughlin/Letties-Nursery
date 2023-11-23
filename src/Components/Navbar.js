@@ -31,10 +31,7 @@ export const Navbar = () => {
                     <Link to={"/"}>
                         <img src={isActive ? Logo : WhiteLogo} alt="Lettie's Nursery" className="h-[45px]" />
                     </Link>
-                    {/* <a className="inline-block ml-auto mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-300 text-sm font-bold rounded-xl transition duration-200" href="#">
-                        Login
-                    </a> */}
-                    {/* Cart */}
+                    {/* Cart button */}
                     <button
                         onClick={() => setIsOpen(!isOpen)}
                         aria-label="Open cart"

@@ -19,11 +19,9 @@ const Header = () => {
                             <Link to={`/plants`}>
                                 <button className="bg-white hover:bg-gray-400 rounded-xl w-[200px] md:w-auto py-2 px-6 transition duration-200">Browse our collection</button>
                             </Link>
-                            <Link to={`/about`}>
-                                <button className="text-gray-400 relative after:bg-gray-400 after:absolute after:h-[1px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200">
-                                    Learn more
-                                </button>
-                            </Link>
+                            <button className="text-gray-400 relative after:bg-gray-400 after:absolute after:h-[1px] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200">
+                                Learn more
+                            </button>
                         </div>
                     </div>
                     <img src={Hero} alt="Hero" className="hidden md:block h-[300px] lg:h-full ml-5 lg:ml-0 self-end" />

@@ -61,7 +61,7 @@ const Home = () => {
                 </div>
             </section>
             <section className="bg-gray-400 mt-8">
-                <div className="container mx-auto px-4 py-6 flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 items-center lg:justify-around">
+                <div className="container mx-auto px-4 py-6 flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 items-center lg:justify-between">
                     <div>
                         <h2 className="buenard text-3xl font-bold">Never miss a deal.</h2>
                         <p className="text-sm">Get amazing deals for free. No spam, no hassle. Unsubscribe at any time.</p>

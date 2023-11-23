@@ -10,6 +10,8 @@ import { ProductContext } from "../Contexts/ProductContext";
 import CatPlant from "../Components/Assets/img/catPlant.webp";
 import Dog from "../Components/Assets/img/dog.webp";
 import Fish from "../Components/Assets/img/fish.webp";
+// import icons
+import { BiSolidCreditCard, BiSolidSmile, BiSolidTruck, BiSolidStar } from "react-icons/bi";
 
 const Home = () => {
     // get products from product context
@@ -68,12 +70,114 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            {/* Site traits section */}
+            <section className="mt-8">
+                <div className="container mx-auto p-4 flex flex-col lg:flex-row items-center lg:justify-between gap-y-4 lg:gap-y-0 text-center">
+                    {/* Fast shipping */}
+                    <div className="bg-white rounded-xl w-full lg:w-[300px] lg:aspect-square p-6 flex flex-col items-center justify-center gap-y-2 card-shadow">
+                        <p className="text-6xl">
+                            <BiSolidTruck />
+                        </p>
+                        <h3 className="text-2xl">Fast Shipping</h3>
+                        <p className="text-sm text-gray-500">We ship to anywhere within the United States&#8212;and fast!</p>
+                    </div>
+                    {/* Quality products */}
+                    <div className="bg-white rounded-xl w-full lg:w-[300px] lg:aspect-square p-6 flex flex-col items-center justify-center gap-y-2 card-shadow">
+                        <p className="text-6xl">
+                            <BiSolidSmile />
+                        </p>
+                        <h3 className="text-2xl">Quality Guaranteed</h3>
+                        <p className="text-sm text-gray-500">All of our products are only of the highest quality.</p>
+                    </div>
+                    {/* Secure transactions */}
+                    <div className="bg-white rounded-xl w-full lg:w-[300px] lg:aspect-square p-6 flex flex-col items-center justify-center gap-y-2 card-shadow">
+                        <p className="text-6xl">
+                            <BiSolidCreditCard />
+                        </p>
+                        <h3 className="text-2xl">Secure Transactions</h3>
+                        <p className="text-sm text-gray-500">Your information's safe and secure.</p>
+                    </div>
+                </div>
+            </section>
+            {/* Site reviews section */}
+            <section className="mt-8">
+                <div className="container p-4 mx-auto">
+                    <h2 className="buenard pb-4 text-4xl">Reviews</h2>
+                    <div className="w-full pb-4 flex items-center justify-start gap-x-4 overflow-x-auto">
+                        {/* Review */}
+                        <div className="bg-white rounded-xl w-[350px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                            <h3 className="text-2xl">"Best plants ever!"</h3>
+                            <div className="flex text-yellow-700">
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                            </div>
+                            <p>These are the best plants I ever got! My cat Billy-Bo-Beanie-Weanie loves them.</p>
+                            <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
+                        </div>
+                        {/* Review */}
+                        <div className="bg-white rounded-xl w-[350px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                            <h3 className="text-2xl">"Best plants ever!"</h3>
+                            <div className="flex text-yellow-700">
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                            </div>
+                            <p>These are the best plants I ever got! My cat Billy-Bo-Beanie-Weanie loves them.</p>
+                            <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
+                        </div>
+                        {/* Review */}
+                        <div className="bg-white rounded-xl w-[350px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                            <h3 className="text-2xl">"Best plants ever!"</h3>
+                            <div className="flex text-yellow-700">
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                            </div>
+                            <p>These are the best plants I ever got! My cat Billy-Bo-Beanie-Weanie loves them.</p>
+                            <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
+                        </div>
+                        {/* Review */}
+                        <div className="bg-white rounded-xl w-[350px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                            <h3 className="text-2xl">"Best plants ever!"</h3>
+                            <div className="flex text-yellow-700">
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                            </div>
+                            <p>These are the best plants I ever got! My cat Billy-Bo-Beanie-Weanie loves them.</p>
+                            <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
+                        </div>
+                        {/* Review */}
+                        <div className="bg-white rounded-xl w-[350px] p-6 mr-2 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                            <h3 className="text-2xl">"I worship my plants."</h3>
+                            <div className="flex text-yellow-700">
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                                <BiSolidStar />
+                            </div>
+                            <p>What is the meaning of life if not for plants?</p>
+                            <p className="text-xs text-gray-500">&#8212; James Adams</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             {/* Email call to action section */}
             <section className="bg-gray-400 mt-8">
                 <div className="container mx-auto px-4 py-6 flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 items-center lg:justify-between">
                     {/* Never miss a deal & caption */}
                     <div className="text-center lg:text-left">
-                        <h2 className="buenard text-3xl font-bold">Never miss a deal.</h2>
+                        <h2 className="buenard text-3xl">Never miss a deal.</h2>
                         <p className="text-sm">Get amazing deals for free. No spam, no hassle. Unsubscribe at any time.</p>
                     </div>
                     {/* Email form */}

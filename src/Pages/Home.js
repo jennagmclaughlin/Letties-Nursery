@@ -105,7 +105,7 @@ const Home = () => {
                     <h2 className="buenard pb-4 text-4xl">Reviews</h2>
                     <div className="w-full pb-4 flex items-center justify-start gap-x-4 overflow-x-auto">
                         {/* Review */}
-                        <div className="bg-white rounded-xl w-[350px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                        <div className="bg-white rounded-xl w-[350px] lg:w-[500px] h-[184px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
                             <h3 className="text-2xl">"Best plants ever!"</h3>
                             <div className="flex text-yellow-700">
                                 <BiSolidStar />
@@ -118,7 +118,7 @@ const Home = () => {
                             <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
                         </div>
                         {/* Review */}
-                        <div className="bg-white rounded-xl w-[350px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                        <div className="bg-white rounded-xl w-[350px] lg:w-[500px] h-[184px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
                             <h3 className="text-2xl">"Best plants ever!"</h3>
                             <div className="flex text-yellow-700">
                                 <BiSolidStar />
@@ -131,7 +131,7 @@ const Home = () => {
                             <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
                         </div>
                         {/* Review */}
-                        <div className="bg-white rounded-xl w-[350px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                        <div className="bg-white rounded-xl w-[350px] lg:w-[500px] h-[184px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
                             <h3 className="text-2xl">"Best plants ever!"</h3>
                             <div className="flex text-yellow-700">
                                 <BiSolidStar />
@@ -144,7 +144,7 @@ const Home = () => {
                             <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
                         </div>
                         {/* Review */}
-                        <div className="bg-white rounded-xl w-[350px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                        <div className="bg-white rounded-xl w-[350px] lg:w-[500px] h-[184px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
                             <h3 className="text-2xl">"Best plants ever!"</h3>
                             <div className="flex text-yellow-700">
                                 <BiSolidStar />
@@ -157,7 +157,7 @@ const Home = () => {
                             <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
                         </div>
                         {/* Review */}
-                        <div className="bg-white rounded-xl w-[350px] p-6 mr-2 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
+                        <div className="bg-white rounded-xl w-[350px] lg:w-[500px] h-[184px] p-6 mr-2 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
                             <h3 className="text-2xl">"I worship my plants."</h3>
                             <div className="flex text-yellow-700">
                                 <BiSolidStar />

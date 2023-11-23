@@ -119,7 +119,7 @@ const Home = () => {
                         </div>
                         {/* Review */}
                         <div className="bg-white rounded-xl w-[350px] lg:w-[500px] h-[184px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
-                            <h3 className="text-2xl">"Best plants ever!"</h3>
+                            <h3 className="text-2xl">"Very fast service!"</h3>
                             <div className="flex text-yellow-700">
                                 <BiSolidStar />
                                 <BiSolidStar />
@@ -127,12 +127,12 @@ const Home = () => {
                                 <BiSolidStar />
                                 <BiSolidStar />
                             </div>
-                            <p>These are the best plants I ever got! My cat Billy-Bo-Beanie-Weanie loves them.</p>
-                            <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
+                            <p>My plant shipped within one day.</p>
+                            <p className="text-xs text-gray-500">&#8212; Wyatt Walker</p>
                         </div>
                         {/* Review */}
                         <div className="bg-white rounded-xl w-[350px] lg:w-[500px] h-[184px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
-                            <h3 className="text-2xl">"Best plants ever!"</h3>
+                            <h3 className="text-2xl">"Cool."</h3>
                             <div className="flex text-yellow-700">
                                 <BiSolidStar />
                                 <BiSolidStar />
@@ -140,12 +140,12 @@ const Home = () => {
                                 <BiSolidStar />
                                 <BiSolidStar />
                             </div>
-                            <p>These are the best plants I ever got! My cat Billy-Bo-Beanie-Weanie loves them.</p>
-                            <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
+                            <p>Cool.</p>
+                            <p className="text-xs text-gray-500">&#8212; Abraham Schmidt</p>
                         </div>
                         {/* Review */}
                         <div className="bg-white rounded-xl w-[350px] lg:w-[500px] h-[184px] p-6 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">
-                            <h3 className="text-2xl">"Best plants ever!"</h3>
+                            <h3 className="text-2xl">"Great customer support."</h3>
                             <div className="flex text-yellow-700">
                                 <BiSolidStar />
                                 <BiSolidStar />
@@ -153,8 +153,8 @@ const Home = () => {
                                 <BiSolidStar />
                                 <BiSolidStar />
                             </div>
-                            <p>These are the best plants I ever got! My cat Billy-Bo-Beanie-Weanie loves them.</p>
-                            <p className="text-xs text-gray-500">&#8212; Jane Miller</p>
+                            <p>The people running this place are so kind. They respond fast and are very considerate.</p>
+                            <p className="text-xs text-gray-500">&#8212; Elijah Collins</p>
                         </div>
                         {/* Review */}
                         <div className="bg-white rounded-xl w-[350px] lg:w-[500px] h-[184px] p-6 mr-2 flex-shrink-0 flex flex-col justify-center gap-y-2 ml-[3px] card-shadow">

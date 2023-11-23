@@ -7,9 +7,9 @@ import WhiteLogo from "./Assets/img/white-logo-text.png";
 // import icons
 import { BiCartAlt } from "react-icons/bi";
 // import sidebar context
-import { SidebarContext } from "../Context/SidebarContext";
+import { SidebarContext } from "../Contexts/SidebarContext";
 // import cart context
-import { CartContext } from "../Context/CartContext";
+import { CartContext } from "../Contexts/CartContext";
 
 export const Navbar = () => {
     // nav state

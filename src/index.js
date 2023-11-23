@@ -3,11 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 // product provider
-import ProductProvider from "./Context/ProductContext";
+import ProductProvider from "./Contexts/ProductContext";
 // sidebar provider
-import SidebarProvider from "./Context/SidebarContext";
+import SidebarProvider from "./Contexts/SidebarContext";
 // cart provider
-import CartProvider from "./Context/CartContext";
+import CartProvider from "./Contexts/CartContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

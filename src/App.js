@@ -8,6 +8,7 @@ import About from "./Pages/About";
 import Plants from "./Pages/Plants";
 // import components
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 // import ScrollToTop
 import ScrollToTop from "./ScrollToTop";
@@ -15,6 +16,7 @@ import ScrollToTop from "./ScrollToTop";
 const App = () => {
     return (
         <HashRouter>
+            <Navbar />
             <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Home />} />

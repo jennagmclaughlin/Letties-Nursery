@@ -4,12 +4,14 @@ import { Link } from "react-router-dom";
 // import icons
 import { IoMdClose, IoMdRemove, IoMdAdd } from "react-icons/io";
 // import cart context
-import { CartContext } from "../Context/CartContext";
+import { CartContext } from "../Contexts/CartContext";
 
 const CartItem = ({ item }) => {
     const { removeFromCart, decreaseAmount, increaseAmount } = useContext(CartContext);
+
     // deconstruct item
     const { id, name, image, price, amount } = item;
+
     return (
         <div className="bg-white w-full h-[130px] border-b border-gray-300 p-4 lg:px-5 flex items-center">
             <div className="w-full flex gap-x-4">

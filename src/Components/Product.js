@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { BiPlus } from "react-icons/bi";
 import { BsEye } from "react-icons/bs";
 // import cart context
-import { CartContext } from "../Context/CartContext";
+import { CartContext } from "../Contexts/CartContext";
 
 const Product = ({ product }) => {
     // add product to cart
@@ -39,14 +39,14 @@ const Product = ({ product }) => {
                 <div className="flex justify-between items-center">
                     <div>
                         {/* product name */}
-                        <h2 className="font-bold text-lg">{name}</h2>
+                        <h2 className="font-bold text-lg lg:leading-5">{name}</h2>
                         {/* product capton (scientific name and category) */}
                         <h6 className="text-xs">
                             <span className="italic">{scientificName}</span>; {category} plant
                         </h6>
                     </div>
                     {/* product price */}
-                    <h2 className="text-xl">{price}</h2>
+                    <h2 className="text-xl">${price}</h2>
                 </div>
             </div>
         </div>

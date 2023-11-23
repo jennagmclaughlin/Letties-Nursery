@@ -1,7 +1,5 @@
 import React, { useContext, useRef } from "react";
 import { Link } from "react-router-dom";
-// import navbar
-import Navbar from "./Navbar";
 // import hero img
 import Hero from "./Assets/img/hero.png";
 

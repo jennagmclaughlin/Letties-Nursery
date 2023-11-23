@@ -11,9 +11,9 @@ const Footer = () => {
         <footer className="bg-dark-green w-full">
             <div className="container px-4 py-12 mx-auto text-white">
                 {/* Links */}
-                <div className="flex flex-col-reverse lg:flex-row mb-4 lg:justify-between">
+                <div className="flex flex-col-reverse lg:flex-row mb-8 lg:justify-between">
                     {/* Links */}
-                    <div className="flex flex-col lg:flex-row gap-y-4 lg:gap-x-20 lg:gap-y-0 text-center lg:text-left">
+                    <div className="flex flex-col lg:flex-row gap-y-6 lg:gap-x-20 lg:gap-y-0 text-center lg:text-left">
                         {/* Customer service */}
                         <div>
                             <h3>Customer Service</h3>
@@ -43,7 +43,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* Social media */}
-                    <div className="flex justify-center gap-x-8 mb-4 lg:mb-0 text-2xl text-black">
+                    <div className="flex justify-center gap-x-8 mb-8 lg:mb-0 text-2xl text-black">
                         {/* Facebook */}
                         <div className="bg-white rounded-xl w-[2rem] h-[2rem] p-1 flex items-center justify-center">
                             <BiLogoFacebook />

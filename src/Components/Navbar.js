@@ -43,7 +43,9 @@ export const Navbar = () => {
                         <BiCartAlt />
                     </button>
                     {/* Item amount circle */}
-                    <div className="bg-purple min-w-[20px] aspect-square flex items-center justify-center rounded-2xl absolute top-3 -right-3 text-xs text-white">{itemAmount}</div>
+                    <div className="bg-purple min-w-[20px] aspect-square flex items-center justify-center rounded-2xl absolute top-3 -right-3 text-xs text-white text-center">
+                        {itemAmount}
+                    </div>
                 </div>
             </div>
         </nav>

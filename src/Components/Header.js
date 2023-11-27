@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 // import hero img
 import Hero from "./Assets/img/hero.png";
@@ -11,11 +11,11 @@ const Header = () => {
                     {/* Site title */}
                     <h3 className="buenard text-xl text-white">Lettie's Nursery</h3>
                     {/* Site slogan */}
-                    <h1 className="buenard font-bold text-white text-7xl">The Best for Pet-Friendly Greenery</h1>
+                    <h1 className="buenard font-bold text-white text-7xl">The Best Greenery for Cats and Dogs</h1>
                     {/* Site blurb */}
-                    <p className="text-gray-400 text-sm mt-2">
-                        Welcome to a plant lover's dream where pet safety comes first! Explore our store for a handpicked assortment of pet-friendly plants, specially chosen to
-                        bring the outdoors inside without compromising the well-being of your furry companions.
+                    <p className="text-gray-400 text-sm mt-4">
+                        Welcome to a plant lover's dream where your cat and dog's safety comes first! Explore our store for a handpicked assortment of pet-friendly plants,
+                        specially chosen to bring the outdoors inside without compromising the well-being of your furry companions.
                     </p>
                     <div className="mt-5 flex flex-col md:flex-row items-center gap-5">
                         {/* Browse call to action */}
